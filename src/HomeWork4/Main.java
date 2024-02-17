@@ -22,5 +22,4 @@ public class Main {
         } catch (InterruptedException e) {
         }
     }
-}do you hear me?
-yes mf
+}
