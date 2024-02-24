@@ -1,5 +1,8 @@
 package HomeWork4;
 
+//Evgeny Vasilev 336550686 
+//Maxim Serotenko 
+//https://github.com/Evgeny865/HomeWork5/tree/master/src/HomeWork4
 import java.util.concurrent.*;
 
 public class SemaphoreExample {
