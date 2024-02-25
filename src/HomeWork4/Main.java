@@ -3,7 +3,7 @@ package HomeWork4;
 public class Main {
     public static void main(String[] args) {
 
-        SemaphoreExample.SharedResource = new SemaphoreExample.SharedResource(2);
+        SemaphoreExample.SharedResource = new SemaphoreExample.SharedResource(2); //allow 2 threads access a time
 
         Thread thread1 = new SemaphoreExample.Worker("Thread 1", SemaphoreExample.SharedResource);
         Thread thread2 = new SemaphoreExample.Worker("Thread 2", SemaphoreExample.SharedResource);
@@ -14,12 +14,8 @@ public class Main {
         thread2.start();
         thread3.start();
 
-        try {
-            thread1.join();
-            thread2.join();
-            thread3.join();
-
-        } catch (InterruptedException e) {
-        }
+       thread1.join();
+        thread2.join();
+        thread3.join();
     }
 }
