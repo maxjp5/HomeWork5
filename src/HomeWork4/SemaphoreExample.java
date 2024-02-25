@@ -1,7 +1,7 @@
 package HomeWork4;
 
 //Evgeny Vasilev 336550686 
-//Maxim Serotenko 
+//Maxim Sirotenko 328663547
 //https://github.com/Evgeny865/HomeWork5/tree/master/src/HomeWork4
 import java.util.concurrent.*;
 
